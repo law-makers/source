@@ -40616,6 +40616,26 @@ body.page-responsive .flash-full .container {
     margin-right: 0
 }
 
+.file-navigation .js-path-segment:last-child a {
+    color: #24292e;
+    font-weight: 600;
+    pointer-events: none;
+}
+
+.file-navigation .js-path-segment:first-child a {
+    color: #0366d6;
+    font-weight: 600;
+    pointer-events: auto;
+}
+
+.Box-row:first-of-type {
+    border-top: 1px solid #ebedef;
+}
+
+.Box-row--focus-gray:hover {
+    background-color: #f6f8fa;
+}
+
 .file-navigation:before {
     content: "";
     display: table
