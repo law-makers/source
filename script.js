@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", async function (event) {
                         </a>
                     </div>
                     <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
-                        <div class="flex-auto"></div>
+                    <div class="flex-auto"></div>
                         <div class="BtnGroup">
                             <a href="${location.hash.substring(2)}" id="raw-url" role="button" data-view-component="true" class="btn-sm btn BtnGroup-item">Raw</a>
                         </div>
